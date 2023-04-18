@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping
     public String testing() {
-        return "Welcome to electronic store.....................................jenkin test purpose.............................";
+        return "Welcome to electronic store....................................Welcome to .jenkin test purpose.............................";
     }
 }
