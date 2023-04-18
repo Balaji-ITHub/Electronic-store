@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping
     public String testing() {
+        System.out.println("maderchod jenkin.....");
         return "Welcome to electronic store....................................Welcome to .jenkin test purpose.............................";
     }
 }
