@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class HomeController {
     @GetMapping
-    public String testing() {
-        System.out.println("maderchod jenkin.....");
+    public String testing() 
         return "Welcome to electronic store....................................Welcome to .jenkin test purpose.............................";
     }
 }
